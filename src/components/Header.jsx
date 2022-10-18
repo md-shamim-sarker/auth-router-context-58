@@ -16,6 +16,7 @@ const Header = () => {
         <div className='header'>
             <Link to={"/"}>Home</Link>
             <Link to={"/orders"}>Orders</Link>
+            <Link to={"/inventory"}>Inventory</Link>
             {
                 user?.uid
                     ? <Link onClick={logOutHandler}>Logout</Link>
